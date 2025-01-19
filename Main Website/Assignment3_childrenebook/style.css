@@ -1,0 +1,130 @@
+body {
+    background-image: url('./images/bg2.jpg');
+    background-size: cover; 
+    /* position: fixed; */
+    
+    background-position: center center; /* Centers the image */
+    /* background-repeat: no-repeat; Prevents the image from repeating */
+    
+}
+
+.anton-regular {
+    font-family: "Anton", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 10vw;
+    text-shadow: 43px 43px 20px rgba(0, 0, 0, 0.9); /* Shadow with offset and blur */
+  }
+
+.heading{
+    display: flex;
+    justify-content: center;
+    font-family: "Anton";
+    font-size: 10vw;
+    background-image: linear-gradient(to right, red, pink); /* Example gradient (from left to right) */
+    -webkit-background-clip: text; /* Clips the background to the text */
+    color: transparent; /* Makes the text color transparent to show the gradient */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Horizontal, vertical offset, blur, color */
+}
+
+.sticky-element {
+    margin-bottom: 20px;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    position: sticky;
+    top: 0; /* This will keep it at the top */
+    z-index: 1000; /* Ensures it stays on top of other content */
+    /* background-color: yellow; Optional, to make it visible */
+    
+}
+
+a{
+    background-color: #007bff; /* Icon background color (optional) */
+    color: white; /* Icon color */
+    border-radius: 50%; /* Circular shape */
+    padding: 10px; /* Padding around the icon */
+    cursor: pointer; /* Makes it clickable */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for a nice effect */
+    text-align: center; /* Centers the icon inside */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #0056b3; /* Darker shade when hovered */
+}
+  
+
+.main{
+    /* display: flex; */
+    /* justify-content: center; */
+    
+}
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: space-between; */
+    
+}
+#a{
+    
+}
+.alphabet-card{
+    background-color: #ff33e0;
+    width: 80%;
+    height: 400px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    border-radius: 10%;
+    transition: background 0.5s ease;
+}
+.alphabet-card:hover {
+    background-image: linear-gradient(to right, #ff33e0, yellow); /* Gradient on hover */
+}
+
+svg{
+    height: 150px ;
+    width: auto;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    filter: drop-shadow(24px 24px 5px rgba(0, 0, 0, 0.7));
+}
+/* .apple{
+    fill: green;
+} */
+
+
+.scroll-to-top {
+    position: fixed; /* Fixes the position relative to the viewport */
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px;  /* Distance from the right */
+    font-size: 24px; /* Icon size */
+    background-color: #007bff; /* Icon background color (optional) */
+    color: white; /* Icon color */
+    border-radius: 50%; /* Circular shape */
+    padding: 10px; /* Padding around the icon */
+    cursor: pointer; /* Makes it clickable */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for a nice effect */
+    text-align: center; /* Centers the icon inside */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.scroll-to-top:hover {
+    background-color: #0056b3; /* Darker shade when hovered */
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
