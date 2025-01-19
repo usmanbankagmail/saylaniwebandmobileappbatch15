@@ -1,0 +1,23 @@
+h3:hover{
+    font-size: 50px;
+}
+
+h3::-moz-focus-inner{
+    color: red;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:link{
+    color: yellow;
+}
+
+a:active{
+    color:purple;
+}
+
+input:focus{
+    padding: 20px;
+}

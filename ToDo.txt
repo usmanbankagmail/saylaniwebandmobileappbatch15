@@ -1,1 +1,8 @@
 Assignment given on 6dec24: Create Periodic Table in HTML
+
+8Dec24: Assignment # 2:
+Main Index File containing links to following:
+1.) Periodic Table
+2.) Images Gallery
+3.) Resume
+4.) Form Filling

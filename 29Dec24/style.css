@@ -1,0 +1,30 @@
+h1{
+ text-decoration: underline;
+ letter-spacing: 10px;   
+}
+
+p{
+    line-height: 30px;
+    word-spacing: 20px;
+    text-align: center;
+}
+
+.justifyalignment{
+    text-align: justify;
+}
+
+.leftalignment{
+    text-align: left;
+}
+
+.baselineunderstanding{
+    vertical-align: center;
+}
+
+span{
+    vertical-align: center;
+}
+
+h2{
+    background-image: url('download.jpg');
+}

@@ -1,0 +1,59 @@
+.logo, ul, nav ul>li, .other-links, .other-links>div{
+    display: inline-block;
+}
+
+
+.logo{
+    background-color: yellow;
+}
+
+
+.other-links{
+    background-color: blue;
+}
+
+
+#icon{
+    display: none;
+}
+
+
+/*media query*/
+
+@media screen and (max-width:600px){
+    .box {
+        background-color: aqua;
+    }
+    .logo{
+        background-color: bisque;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    nav li{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 425px){
+    
+    .other-links>div{
+        display: none;
+    }
+    
+    #icon{
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width:300px ) and (max-width: 800px){
+
+    .box{
+        height: 200px;
+        width: 200px;
+        background-color: red;
+    }
+    
+}
+

@@ -1,0 +1,64 @@
+.themain{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    justify-content: space-evenly;
+    row-gap: 10px;
+}
+
+
+
+.card{
+    height: 300px;
+    width: 200px;
+    border: 1px solid black;
+    /* flex-grow: 1;   */
+}
+
+.img{
+    height:50% ;
+    width:100% ;
+    background-image: url('../');
+}
+
+.card5{
+    order: 2;
+    flex-grow: 10;
+}
+.card4{
+    order: 0;
+}
+.card6{
+    flex-shrink: 5;
+}
+
+nav{
+    display: flex;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+.left-nav{
+    background-color: aqua;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+
+}
+
+
+.right-nav{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    
+}
+
+@media screen and (max-width:425px) {
+    .right-nav{
+        flex-direction: column;
+    }
+    
+}
